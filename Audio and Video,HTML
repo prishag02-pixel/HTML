@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>replit</title>
+    </head>
+    <body>
+        <h2> This is one of my favourite songs</h2>
+        <audio controls autoplay>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <p>This is one of my favourite videos</p>
+        <video width="400" height="300" controls autoplay
+    poster="michal Jackson.jpeg" loop>
+        <source src="video.mp4" type="video/mp4">
+        Your browser deos not support the video tag
+        </video>
+
+    </body>
+</html>
+   
