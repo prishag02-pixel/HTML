@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>colors!</h2>
+        <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+        <p id="mysecondpop"></p>
+        <script>
+            var colors = ["pink", "blue", "orange", "yellow"];
+            document.getElementById("myjoin").innerHTML = colors.join(" + ");
+            document.getElementById("myfirstpop").innerHTML = colors;
+            colors.pop();
+            document.getElementById("mysecondpop").innerHTML = colors;
+        </script>
+        </body>
+        </html>
